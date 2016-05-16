@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq;
 using DataSource;
 using Entity;
 
@@ -15,6 +16,13 @@ namespace CreateMockDb
             var orders = Source.Instance.GetOrders();
 
             var mappingPeople = repository.PersonMap(people, orders);
+
+            using (var context = new PersonContext())
+            {
+                context.Persons.AddRange(mappingPeople);
+
+                context.SaveChanges();
+            }
 
             Console.ReadKey();
         }

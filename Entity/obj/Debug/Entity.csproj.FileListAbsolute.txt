@@ -7,3 +7,14 @@ D:\GenMockData\CreateMockDb\Entity\bin\Debug\Newtonsoft.Json.xml
 D:\GenMockData\CreateMockDb\Entity\obj\Debug\Entity.csprojResolveAssemblyReference.cache
 D:\GenMockData\CreateMockDb\Entity\obj\Debug\Entity.dll
 D:\GenMockData\CreateMockDb\Entity\obj\Debug\Entity.pdb
+D:\github\CreateMockDb\Entity\bin\Debug\Entity.dll
+D:\github\CreateMockDb\Entity\bin\Debug\Entity.pdb
+D:\github\CreateMockDb\Entity\bin\Debug\DataSource.dll
+D:\github\CreateMockDb\Entity\bin\Debug\Newtonsoft.Json.dll
+D:\github\CreateMockDb\Entity\bin\Debug\DataSource.pdb
+D:\github\CreateMockDb\Entity\bin\Debug\Newtonsoft.Json.xml
+D:\github\CreateMockDb\Entity\obj\Debug\Entity.csprojResolveAssemblyReference.cache
+D:\github\CreateMockDb\Entity\obj\Debug\Entity.dll
+D:\github\CreateMockDb\Entity\obj\Debug\Entity.pdb
+D:\github\CreateMockDb\Entity\bin\Debug\EntityFramework.dll
+D:\github\CreateMockDb\Entity\bin\Debug\EntityFramework.xml
