@@ -1,17 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
+﻿using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using CreateMockDb.Context.Models;
+using DataSource.Models;
 
 namespace Entity
 {
     public class Repository
     {
-
-
         public IList<Person> PersonMap(IList<Person> people, IList<Order> orders)
         {
             foreach (var persone in people)
@@ -21,7 +15,6 @@ namespace Entity
                     persone.Orders.Add(order);
                 }
             }
-
             return people;
         }
     }

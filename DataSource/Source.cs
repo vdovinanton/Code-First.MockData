@@ -1,19 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.IO;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using CreateMockDb.Context.Models;
+using DataSource.Models;
 using Newtonsoft.Json.Linq;
 
 namespace DataSource
 {
     public class Source
     {
-        /// <summary>
-        /// Initializes a instance of the <see cref="Source"/> class
-        /// </summary>
         public static Source Instance => _instance.Value;
 
         private static readonly Lazy<Source> _instance = new Lazy<Source>(() => new Source());

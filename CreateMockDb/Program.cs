@@ -1,8 +1,5 @@
-﻿using System;
-using System.Linq;
-using DataSource;
+﻿using DataSource;
 using Entity;
-
 
 namespace CreateMockDb
 {
@@ -23,8 +20,6 @@ namespace CreateMockDb
 
                 context.SaveChanges();
             }
-
-            Console.ReadKey();
         }
     }
 }
