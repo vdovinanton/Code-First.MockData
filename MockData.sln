@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MockData", "CreateMockDb\MockData.csproj", "{85DB008E-D7D8-464F-BC2B-D996A765E16B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MockData", "MockData\MockData.csproj", "{85DB008E-D7D8-464F-BC2B-D996A765E16B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MockData.Source", "DataSource\MockData.Source.csproj", "{EEAEE7CA-C5EA-4C13-8FB5-9D6D56AA8A77}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MockData.Source", "MockData.Source\MockData.Source.csproj", "{EEAEE7CA-C5EA-4C13-8FB5-9D6D56AA8A77}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MockData.Entity", "Entity\MockData.Entity.csproj", "{8C956A77-18E0-4BC8-AA83-8D28075B6D12}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MockData.Entity", "MockData.Entity\MockData.Entity.csproj", "{8C956A77-18E0-4BC8-AA83-8D28075B6D12}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

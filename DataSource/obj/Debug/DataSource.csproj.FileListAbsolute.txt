@@ -1,6 +1,0 @@
-D:\GenMockData\CreateMockDb\DataSource\bin\Debug\DataSource.dll
-D:\GenMockData\CreateMockDb\DataSource\bin\Debug\DataSource.pdb
-D:\GenMockData\CreateMockDb\DataSource\bin\Debug\Newtonsoft.Json.dll
-D:\GenMockData\CreateMockDb\DataSource\bin\Debug\Newtonsoft.Json.xml
-D:\GenMockData\CreateMockDb\DataSource\obj\Debug\DataSource.dll
-D:\GenMockData\CreateMockDb\DataSource\obj\Debug\DataSource.pdb
