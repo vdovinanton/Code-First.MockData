@@ -66,6 +66,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="App_Data\OrderInfo.json" />
     <None Include="App_Data\Orders.json" />
     <None Include="App_Data\People.json" />
     <None Include="packages.config" />
