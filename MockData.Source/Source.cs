@@ -42,14 +42,14 @@ namespace MockData.Source
         }
 
         /// <summary>
-        /// Read OrderInfo.json and make serialization
+        /// Read OrderInfo.json and mae serialization
         /// </summary>
-        /// <returns>Collection <see cref="OrderInfo"/></returns>
-        public IList<OrderInfo> GetOrderInfo()
+        /// <returns>Collection <see cref="Product"/></returns>
+        public List<Product> GetProducts()
         {
-            var jsonInfo = File.ReadAllText($"{_rootFolder}\\OrderInfo.json");
-            var orderInfo = JArray.Parse(jsonInfo).ToObject<IList<OrderInfo>>();
-            return orderInfo;
+            var jsonProduct = File.ReadAllText($"{_rootFolder}\\OrderInfo.json");
+            var products = JArray.Parse(jsonProduct).ToObject<List<Product>>();
+            return products;
         }
     }
 }

@@ -1,5 +1,7 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Linq;
+using System.Security.Policy;
 using DataSource.Models;
 using MockData.Source.Models;
 
@@ -7,6 +9,8 @@ namespace MockData.Entity
 {
     public class Repository
     {
+        private static readonly Random _rand = new Random();
+
         /// <summary>
         /// Mapping person with orders, one to many
         /// </summary>
@@ -28,17 +32,33 @@ namespace MockData.Entity
         /// <summary>
         /// Mapping orders with name order and price order
         /// </summary>
-        /// <param name="orders">Orders without fields Name and Price</param>
-        /// <param name="ordersInfo">Objects with filds Name and Price</param>
         /// <returns>Modified <see cref="Order"/></returns>
-        public IList<Order> OrderMap(IList<Order> orders, IList<OrderInfo> ordersInfo)
+        public IList<Order> OrderMap(IList<Order> orders, List<Product> products)
         {
-            for (var i = 0; i < orders.Count; i++)
+            foreach (var order in orders)
             {
-                orders[i].Name = ordersInfo[i].Name;
-                orders[i].Price = ordersInfo[i].Price;
+                var randomProduct = products[_rand.Next(products.Count)];
+                order.Product = randomProduct;
             }
             return orders;
+        }
+
+        /// <summary>
+        /// Mapping similar products in the single object with latest price of the similars
+        /// </summary>
+        /// <param name="products">Products collection</param>
+        /// <returns>Modified <see cref="Product"/></returns>
+        public List<Product> ProductMap(List<Product> products)
+        {
+            var mappingProducts = new List<Product>();
+
+            // Select where product from products does not contain in the mapping Products
+            foreach (var product in products.Where(product => mappingProducts.FirstOrDefault(q => q.Name == product.Name) == null))
+            {
+                mappingProducts.Add(product);
+            }
+
+            return mappingProducts;
         }
     }
 }

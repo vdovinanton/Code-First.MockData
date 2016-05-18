@@ -1,5 +1,6 @@
 ﻿using Newtonsoft.Json;
 using System;
+using DataSource.Models;
 
 namespace MockData.Source.Models
 {
@@ -26,7 +27,11 @@ namespace MockData.Source.Models
         [JsonProperty("DateTime")]
         public DateTime DateTime { get; set; }
 
-        /// <summary>
+        public Product Product { get; set; }
+
+        public int ProductId { get; set; }
+
+/*        /// <summary>
         /// Gets or sets the product name
         /// </summary>
         public string Name { get; set; }
@@ -34,6 +39,6 @@ namespace MockData.Source.Models
         /// <summary>
         /// Gets or sets the product price
         /// </summary>
-        public double? Price { get; set; }
+        public double? Price { get; set; }*/
     }
 }
