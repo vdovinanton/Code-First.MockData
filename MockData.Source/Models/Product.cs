@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 namespace DataSource.Models
 {
     /// <summary>
-    /// Represent entity <see cref="Product"/>
+    /// Represents database entity
     /// </summary>
     public class Product
     {

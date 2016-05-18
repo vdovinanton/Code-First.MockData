@@ -1,6 +1,8 @@
 ﻿using Newtonsoft.Json;
 using System;
 using DataSource.Models;
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace MockData.Source.Models
 {
@@ -13,6 +15,7 @@ namespace MockData.Source.Models
         /// Gets or sets the order id
         /// </summary>
         [JsonProperty("id")]
+
         public int Id { get; set; }
 
         /// <summary>
@@ -27,18 +30,16 @@ namespace MockData.Source.Models
         [JsonProperty("DateTime")]
         public DateTime DateTime { get; set; }
 
-        public Product Product { get; set; }
-
-        public int ProductId { get; set; }
-
-/*        /// <summary>
-        /// Gets or sets the product name
-        /// </summary>
-        public string Name { get; set; }
 
         /// <summary>
-        /// Gets or sets the product price
+        /// Gets or sets product order
         /// </summary>
-        public double? Price { get; set; }*/
+        public Product Product { get; set; }
+
+
+        /// <summary>
+        /// Gets or sets product id
+        /// </summary>
+        public int ProductId { get; set; }
     }
 }

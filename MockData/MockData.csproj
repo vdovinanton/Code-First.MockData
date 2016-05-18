@@ -78,9 +78,7 @@
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Context\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <ProjectReference Include="..\MockData.Entity\MockData.Entity.csproj">
       <Project>{8c956a77-18e0-4bc8-aa83-8d28075b6d12}</Project>
