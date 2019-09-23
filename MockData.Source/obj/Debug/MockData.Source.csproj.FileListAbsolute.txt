@@ -1,0 +1,9 @@
+\\Mac\Home\Documents\dev\pet\Code-First.MockData\MockData.Source\bin\Debug\DataSource.dll
+\\Mac\Home\Documents\dev\pet\Code-First.MockData\MockData.Source\bin\Debug\DataSource.pdb
+\\Mac\Home\Documents\dev\pet\Code-First.MockData\MockData.Source\bin\Debug\Newtonsoft.Json.dll
+\\Mac\Home\Documents\dev\pet\Code-First.MockData\MockData.Source\bin\Debug\Newtonsoft.Json.xml
+\\Mac\Home\Documents\dev\pet\Code-First.MockData\MockData.Source\obj\Debug\MockData.Source.csprojAssemblyReference.cache
+\\Mac\Home\Documents\dev\pet\Code-First.MockData\MockData.Source\obj\Debug\MockData.Source.csproj.CoreCompileInputs.cache
+\\Mac\Home\Documents\dev\pet\Code-First.MockData\MockData.Source\obj\Debug\MockData.Source.csproj.CopyComplete
+\\Mac\Home\Documents\dev\pet\Code-First.MockData\MockData.Source\obj\Debug\DataSource.dll
+\\Mac\Home\Documents\dev\pet\Code-First.MockData\MockData.Source\obj\Debug\DataSource.pdb
